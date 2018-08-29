@@ -1,11 +1,23 @@
 <!DOCTYPE HTML>
-<title>Expenditures</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTO Expenditures</title>
+</head>
 <style>
-iframe {
-	width: 77%;
+
+.fr {
+	width: 75%;
 	height: 2000px;
 	display: block;
 	margin: auto;
+	border: 0;
+}
+
+.fr-cont {
+	position: relative;
+	overflow: hidden;
+	
 }
 
 footer {
@@ -16,13 +28,18 @@ footer {
 	text-align: center;
 }
 
-h1 {
+header {
 	text-align: center;
 }
 
+body {
+	color: #454545;
+}
 </style>
-<h1>Ram aam khata hai expenditure bur jata hai</h1>
-	<iframe width=77% height=2000 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4YIy52ztRJe5morcFsUiuryHPsnf4H6PqNOAIeYMR7CCanKHSF1fGnP9HP1IiVbfadZapIyynCLl/pubhtml?widget=true&amp;headers=false"></iframe>
+<header>Ram aam khata hai expenditure bur jata hai</header>
+<div class="fr-cont">
+	<iframe class="fr" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4YIy52ztRJe5morcFsUiuryHPsnf4H6PqNOAIeYMR7CCanKHSF1fGnP9HP1IiVbfadZapIyynCLl/pubhtml?widget=true&amp;headers=false"></iframe>
+</div>	
 </body>
 <br>
 <footer>Sponsored by
